@@ -12,8 +12,8 @@ namespace MVC.Controllers
         public IActionResult Index()
         {
             var pessoa = new PessoaModelView();
-            pessoa.Nome = "Programe";
-            pessoa.SobreNome = "VC";
+            pessoa.Nome = "Vc";
+            pessoa.SobreNome = "Programador";
 
             return View(pessoa);
         }
